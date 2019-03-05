@@ -1,0 +1,248 @@
+
+.split {
+  height: 100%;
+  width: 70%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+    
+
+}
+.left {
+  left: 0;
+  background-color: #ffe9ec;
+}
+.right {
+  right: 0;
+  background-color: #c28285;
+    margin-top: 0;
+    margin-bottom: 0;
+    
+}
+
+.b
+{
+    height: 0%;
+    visibility: hidden;
+}
+
+
+#home
+{
+    display: block;
+    width: 15%;
+    margin-left:  14%;
+}
+
+   #middle, #left, #right{
+       display: inline-block;
+    width: 31.6%;
+    height: 99%;
+    background-color: #ddb8ba;
+    margin: 0 0 0 0;
+    margin-left: 1%;
+    padding-top: 0%;
+    overflow-y: scroll;
+}
+
+#left h2{
+    height: 4.5%;
+    margin-top: 0%;
+    color: #4e1252;
+    background-color: black;
+    text-align: center;
+ -webkit-text-stroke-width: 0.5px;
+   -webkit-text-stroke-color: white;
+}
+#right h2{
+    height: 4.5%;
+    margin-top: 0%;
+    color: #4e1252;
+    background-color: black;
+    text-align: center;
+ -webkit-text-stroke-width: 0.5px;
+   -webkit-text-stroke-color: white;
+}
+#middle h2{
+    height: 4.5%;
+    margin-top: 0%;
+    color: #4e1252;
+    background-color: black;
+    text-align: center;
+ -webkit-text-stroke-width: 0.5px;
+   -webkit-text-stroke-color: white;
+}
+
+figure{
+    width: 80%;
+    height: 30%;
+    background-color: #ffe9ec;
+    text-align: center;
+    font-size: 0.9em;
+    margin-left: 10%;
+    border: 1px solid black;
+}
+figure img{
+    width: 40%;
+    height: 50%;
+}
+
+
+#section-img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url(fish.jpg);
+    border: 0px solid red;
+    background-size:cover;
+    background-position: center;
+    margin-bottom: 5%;
+    
+}
+   #section-img h2{
+    padding-left: 5%;
+    font-size: 1.2em;
+    position: absolute;
+    text-align: center;
+}
+
+   #section-img img
+{
+    width: 30%;
+    height: 60%;
+    margin-left: 6.5%;
+    margin-top: 10%;
+    
+}
+
+
+   article{
+    
+    width: 100%;
+  height: 100%;
+    overflow-y: scroll;
+   
+}
+
+#hclick
+{
+    font-size: 0em;
+    margin-top:0;
+    margin-bottom: 0;
+    margin-left: 18%;
+    text-decoration: underline;
+   
+}
+
+h1
+{
+    margin-left: 11.5%;
+    text-decoration: underline;
+    
+}
+
+
+
+.inf-offclick{
+    height: 0%;
+}
+
+.inf-onclick{
+    width: 40%;
+    height: 80% !important;
+    
+    margin-top:  8%;
+    background-color:  #ad565a;
+    margin-left: 1.5%;
+}
+
+.section-img-with-border{
+    border-radius: 10%;
+    border: 1px solid black !important;
+    width: 40% !important;
+    height: 5% !important;
+    margin-left: 1%;
+    margin-top: 1%;
+    font-size: 0em;
+}
+
+.h2_hover{
+    color: white !important;
+      height: 5%;
+    margin-top: 0%;
+
+    background-color: black;
+    text-align: center;
+ -webkit-text-stroke-width: 0.5px;
+   -webkit-text-stroke-color: white;
+}
+
+.class_hover{
+    background-color: #ad565a !important;
+   
+    
+    
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+table{width:100%;
+
+}
+
+@media screen and (max-width: 750px)
+{
+    .split
+    {
+        width: 100%;
+    }
+    #middle, #left, #right
+    {
+        width: 100%;
+        height: 100%;
+    }
+    
+ .class_hover
+    {
+        border: 0px;
+    }
+    
+    img
+    {
+       border: 2px solid black;
+
+    }
+    
+
+    
+   .b
+{
+visibility: visible;
+    height: 5%;
+    width: 100%;
+    margin-left: 10%;
+    margin-bottom: 10%;
+}
+    
+    .b button
+    {
+        text-align: center;
+        width:40%;
+        display: inline;
+        
+    }
+    .b button a{text-decoration: none;}
+    .b button a:active
+    {color: black;}
+    .b button a:visited
+    {color: black;}
+    .b button a:disabled
+    {color: black;}
+}
+
+
+h4{font-size: 0em;
+visibility: hidden;}

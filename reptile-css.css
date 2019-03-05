@@ -1,0 +1,182 @@
+.split {
+  height: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+    overflow-y: hidden;
+
+}
+  .left {
+  left: 0;
+  background-color:#9b8d8d ;
+    width: 20%;
+}
+  .right {
+  right: 0;
+  background-color:  #5d5f70;
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 80%;
+    border: 2px solid black;
+}
+
+#home
+{
+    margin-left: 10%;
+}
+
+#cover1, #cover2, #cover3{
+    height: 100%;
+    overflow-y: hidden;
+}
+
+#mancare, #ingrijire, #terarii{   
+    
+    height: 85%;
+    background-color: beige;
+    overflow-y: scroll;
+    
+
+}
+
+h1{  margin-top: 0%;
+    height: 10%;
+    background-color: #d7c2c0;
+}
+h4{
+    
+font-size: 0em;}
+
+form{display:none;
+
+
+}
+
+ul{
+    list-style-type: none;
+  
+    height: 30%;
+    margin-left: 0%;
+    padding-left: 0%;
+    text-align: center;
+    margin-bottom: 25%;
+}
+  li{   
+    vertical-align: middle;
+    height: 22%;
+      
+    border-bottom: 0.5px solid white;
+      border-top: 0.5px solid white;
+      
+    margin-bottom: 0.40%;
+     background-color: black;
+    padding-top: 7%;
+    
+    
+}
+  li a{
+    font-size: 1.5em;
+    color: bisque;
+    text-decoration: none;
+}
+
+figure{
+    width: 18%;
+    float: left;
+    margin-left: 8%;
+    background-color: black;
+    text-align: center;
+    color: whitesmoke;
+    font-size: 0.8em;
+
+}
+  figure img{
+    width: 60%;
+    
+    
+}
+
+
+.hidden{
+    visibility: hidden !important;
+    height: 0% !important;
+}
+
+.b
+{
+    height: 0%;
+}
+
+@media screen and (max-width: 777px){.left
+    {
+        visibility: hidden;
+        width: 0%;
+    }
+    .right
+    {
+        width: 100%;
+    }
+    button a:active{color: black;}
+button a:visited{color: black;}
+    
+    .b
+{
+width: 110%;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-bottom: 5%;
+}
+
+.b button
+{
+    width: 30%;
+}
+    
+    
+}
+
+@media screen and (min-width: 350px) and (max-width:776px){
+    .left
+    {
+        visibility: hidden;
+        width: 0%;
+    }
+    .right
+    {
+        width: 100%;
+    }
+    
+    figure
+    {width: 60%;
+        height: 40%;
+    margin-right: 20%;
+        margin-left: 20%;
+        
+    }
+    button a:active{color: black;}
+button a:visited{color: black;}
+    
+    .b
+{
+width: 110%;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-bottom: 10%;
+    margin-top: 0%;
+}
+
+.b button
+{
+    width: 30%;
+    
+}
+    
+    
+}
+
+a
+{
+    text-decoration: none;
+}
+
